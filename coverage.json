@@ -183,5 +183,12 @@
     "copiedQuestions": 0,
     "delivery": "Official external link plus editorial Guide review shortcuts; no copied assessment question or answer bank.",
     "terms": "https://www.scrum.org/website-terms-service"
+  },
+  "canvas": {
+    "file": "canvas.html",
+    "guidePages": 14,
+    "originalPassages": 136,
+    "reviewedCues": 25,
+    "source": "Same verified Guide nodes; all text rendered without collapsed branches."
   }
 }
