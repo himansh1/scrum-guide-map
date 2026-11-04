@@ -1,0 +1,1470 @@
+[
+  {
+    "id": "b001",
+    "section": "Cover",
+    "text": "Ken Schwaber & Jeff Sutherland\n\n\n\n\nThe Scrum Guide\nThe Definitive Guide to Scrum: The Rules of the Game\n\n\n\n\n               November 2020",
+    "pages": [
+      0
+    ],
+    "kind": "frontmatter"
+  },
+  {
+    "id": "b002",
+    "section": "Purpose of the Scrum Guide",
+    "text": "Purpose of the Scrum Guide",
+    "pages": [
+      1
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b003",
+    "section": "Purpose of the Scrum Guide",
+    "text": "We developed Scrum in the early 1990s. We wrote the first version of the Scrum Guide in 2010 to help people worldwide understand Scrum. We have evolved the Guide since then through small, functional updates. Together, we stand behind it.",
+    "pages": [
+      1
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b004",
+    "section": "Purpose of the Scrum Guide",
+    "text": "The Scrum Guide contains the definition of Scrum. Each element of the framework serves a specific purpose that is essential to the overall value and results realized with Scrum. Changing the core design or ideas of Scrum, leaving out elements, or not following the rules of Scrum, covers up problems and limits the benefits of Scrum, potentially even rendering it useless.",
+    "pages": [
+      1
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b005",
+    "section": "Purpose of the Scrum Guide",
+    "text": "We follow the growing use of Scrum within an ever-growing complex world. We are humbled to see Scrum being adopted in many domains holding essentially complex work, beyond software product development where Scrum has its roots. As Scrum’s use spreads, developers, researchers, analysts, scientists, and other specialists do the work. We use the word “developers” in Scrum not to exclude, but to simplify. If you get value from Scrum, consider yourself included.",
+    "pages": [
+      1
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b006",
+    "section": "Purpose of the Scrum Guide",
+    "text": "As Scrum is being used, patterns, processes, and insights that fit the Scrum framework as described in this document, may be found, applied and devised. Their description is beyond the purpose of the Scrum Guide because they are context sensitive and differ widely between Scrum uses. Such tactics for using within the Scrum framework vary widely and are described elsewhere.",
+    "pages": [
+      1
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b007",
+    "section": "Purpose of the Scrum Guide",
+    "text": "Ken Schwaber & Jeff Sutherland November 2020",
+    "pages": [
+      1
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b008",
+    "section": "Copyright and license",
+    "text": "© 2020 Ken Schwaber and Jeff Sutherland",
+    "pages": [
+      1
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b009",
+    "section": "Copyright and license",
+    "text": "This publication is offered for license under the Attribution Share-Alike license of Creative Commons, accessible at https://creativecommons.org/licenses/by-sa/4.0/legalcode and also described in summary form at https://creativecommons.org/licenses/by-sa/4.0/. By utilizing this Scrum Guide, you acknowledge and agree that you have read and agree to be bound by the terms of the Attribution Share-Alike license of Creative Commons.",
+    "pages": [
+      1
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b010",
+    "section": "Contents",
+    "text": "Purpose of the Scrum Guide .......................................................................................................................... 1\nScrum Definition ............................................................................................................................................ 3\nScrum Theory ................................................................................................................................................. 3\n   Transparency ............................................................................................................................................. 3\n   Inspection .................................................................................................................................................. 4\n   Adaptation ................................................................................................................................................. 4\nScrum Values ................................................................................................................................................. 4\nScrum Team ................................................................................................................................................... 5\n   Developers ................................................................................................................................................. 5\n   Product Owner ........................................................................................................................................... 5\n   Scrum Master............................................................................................................................................. 6\nScrum Events ................................................................................................................................................. 7\n   The Sprint ................................................................................................................................................... 7\n   Sprint Planning ........................................................................................................................................... 8\n   Daily Scrum ................................................................................................................................................ 9\n   Sprint Review ............................................................................................................................................. 9\n   Sprint Retrospective ................................................................................................................................10\nScrum Artifacts.............................................................................................................................................10\n   Product Backlog .......................................................................................................................................10\n       Commitment: Product Goal .................................................................................................................11\n   Sprint Backlog ..........................................................................................................................................11\n       Commitment: Sprint Goal ....................................................................................................................11\n   Increment.................................................................................................................................................11\n       Commitment: Definition of Done ........................................................................................................12\nEnd Note ......................................................................................................................................................13\n   Acknowledgements .................................................................................................................................13\n       People ..................................................................................................................................................13\n       Scrum Guide History ............................................................................................................................13",
+    "pages": [
+      2
+    ],
+    "kind": "frontmatter"
+  },
+  {
+    "id": "b011",
+    "section": "Scrum Definition",
+    "text": "Scrum Definition",
+    "pages": [
+      3
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b012",
+    "section": "Scrum Definition",
+    "text": "Scrum is a lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems.",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b013",
+    "section": "Scrum Definition",
+    "text": "In a nutshell, Scrum requires a Scrum Master to foster an environment where:",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b014",
+    "section": "Scrum Definition",
+    "text": "1. A Product Owner orders the work for a complex problem into a Product Backlog.",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b015",
+    "section": "Scrum Definition",
+    "text": "2. The Scrum Team turns a selection of the work into an Increment of value during a Sprint.",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b016",
+    "section": "Scrum Definition",
+    "text": "3. The Scrum Team and its stakeholders inspect the results and adjust for the next Sprint.",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b017",
+    "section": "Scrum Definition",
+    "text": "4. Repeat",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b018",
+    "section": "Scrum Definition",
+    "text": "Scrum is simple. Try it as is and determine if its philosophy, theory, and structure help to achieve goals and create value. The Scrum framework is purposefully incomplete, only defining the parts required to implement Scrum theory. Scrum is built upon by the collective intelligence of the people using it. Rather than provide people with detailed instructions, the rules of Scrum guide their relationships and interactions.",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b019",
+    "section": "Scrum Definition",
+    "text": "Various processes, techniques and methods can be employed within the framework. Scrum wraps around existing practices or renders them unnecessary. Scrum makes visible the relative efficacy of current management, environment, and work techniques, so that improvements can be made.",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b020",
+    "section": "Scrum Theory",
+    "text": "Scrum Theory",
+    "pages": [
+      3
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b021",
+    "section": "Scrum Theory",
+    "text": "Scrum is founded on empiricism and lean thinking. Empiricism asserts that knowledge comes from experience and making decisions based on what is observed. Lean thinking reduces waste and focuses on the essentials.",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b022",
+    "section": "Scrum Theory",
+    "text": "Scrum employs an iterative, incremental approach to optimize predictability and to control risk. Scrum engages groups of people who collectively have all the skills and expertise to do the work and share or acquire such skills as needed.",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b023",
+    "section": "Scrum Theory",
+    "text": "Scrum combines four formal events for inspection and adaptation within a containing event, the Sprint. These events work because they implement the empirical Scrum pillars of transparency, inspection, and adaptation.",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b024",
+    "section": "Transparency",
+    "text": "Transparency",
+    "pages": [
+      3
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b025",
+    "section": "Transparency",
+    "text": "The emergent process and work must be visible to those performing the work as well as those receiving the work. With Scrum, important decisions are based on the perceived state of its three formal artifacts. Artifacts that have low transparency can lead to decisions that diminish value and increase risk.",
+    "pages": [
+      3
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b026",
+    "section": "Transparency",
+    "text": "Transparency enables inspection. Inspection without transparency is misleading and wasteful.",
+    "pages": [
+      4
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b027",
+    "section": "Inspection",
+    "text": "Inspection",
+    "pages": [
+      4
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b028",
+    "section": "Inspection",
+    "text": "The Scrum artifacts and the progress toward agreed goals must be inspected frequently and diligently to detect potentially undesirable variances or problems. To help with inspection, Scrum provides cadence in the form of its five events.",
+    "pages": [
+      4
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b029",
+    "section": "Inspection",
+    "text": "Inspection enables adaptation. Inspection without adaptation is considered pointless. Scrum events are designed to provoke change.",
+    "pages": [
+      4
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b030",
+    "section": "Adaptation",
+    "text": "Adaptation",
+    "pages": [
+      4
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b031",
+    "section": "Adaptation",
+    "text": "If any aspects of a process deviate outside acceptable limits or if the resulting product is unacceptable, the process being applied or the materials being produced must be adjusted. The adjustment must be made as soon as possible to minimize further deviation.",
+    "pages": [
+      4
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b032",
+    "section": "Adaptation",
+    "text": "Adaptation becomes more difficult when the people involved are not empowered or self-managing. A Scrum Team is expected to adapt the moment it learns anything new through inspection.",
+    "pages": [
+      4
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b033",
+    "section": "Scrum Values",
+    "text": "Scrum Values",
+    "pages": [
+      4
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b034",
+    "section": "Scrum Values",
+    "text": "Successful use of Scrum depends on people becoming more proficient in living five values:",
+    "pages": [
+      4
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b035",
+    "section": "Scrum Values",
+    "text": "Commitment, Focus, Openness, Respect, and Courage",
+    "pages": [
+      4
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b036",
+    "section": "Scrum Values",
+    "text": "The Scrum Team commits to achieving its goals and to supporting each other. Their primary focus is on the work of the Sprint to make the best possible progress toward these goals. The Scrum Team and its stakeholders are open about the work and the challenges. Scrum Team members respect each other to be capable, independent people, and are respected as such by the people with whom they work. The Scrum Team members have the courage to do the right thing, to work on tough problems.",
+    "pages": [
+      4
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b037",
+    "section": "Scrum Values",
+    "text": "These values give direction to the Scrum Team with regard to their work, actions, and behavior. The decisions that are made, the steps taken, and the way Scrum is used should reinforce these values, not diminish or undermine them. The Scrum Team members learn and explore the values as they work with the Scrum events and artifacts. When these values are embodied by the Scrum Team and the people they work with, the empirical Scrum pillars of transparency, inspection, and adaptation come to life building trust.",
+    "pages": [
+      4
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b038",
+    "section": "Scrum Team",
+    "text": "Scrum Team",
+    "pages": [
+      5
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b039",
+    "section": "Scrum Team",
+    "text": "The fundamental unit of Scrum is a small team of people, a Scrum Team. The Scrum Team consists of one Scrum Master, one Product Owner, and Developers. Within a Scrum Team, there are no sub-teams or hierarchies. It is a cohesive unit of professionals focused on one objective at a time, the Product Goal.",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b040",
+    "section": "Scrum Team",
+    "text": "Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Sprint. They are also self-managing, meaning they internally decide who does what, when, and how.",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b041",
+    "section": "Scrum Team",
+    "text": "The Scrum Team is small enough to remain nimble and large enough to complete significant work within a Sprint, typically 10 or fewer people. In general, we have found that smaller teams communicate better and are more productive. If Scrum Teams become too large, they should consider reorganizing into multiple cohesive Scrum Teams, each focused on the same product. Therefore, they should share the same Product Goal, Product Backlog, and Product Owner.",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b042",
+    "section": "Scrum Team",
+    "text": "The Scrum Team is responsible for all product-related activities from stakeholder collaboration, verification, maintenance, operation, experimentation, research and development, and anything else that might be required. They are structured and empowered by the organization to manage their own work. Working in Sprints at a sustainable pace improves the Scrum Team’s focus and consistency.",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b043",
+    "section": "Scrum Team",
+    "text": "The entire Scrum Team is accountable for creating a valuable, useful Increment every Sprint. Scrum defines three specific accountabilities within the Scrum Team: the Developers, the Product Owner, and the Scrum Master.",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b044",
+    "section": "Developers",
+    "text": "Developers",
+    "pages": [
+      5
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b045",
+    "section": "Developers",
+    "text": "Developers are the people in the Scrum Team that are committed to creating any aspect of a usable Increment each Sprint.",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b046",
+    "section": "Developers",
+    "text": "The specific skills needed by the Developers are often broad and will vary with the domain of work. However, the Developers are always accountable for:",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b047",
+    "section": "Developers",
+    "text": "● Creating a plan for the Sprint, the Sprint Backlog;",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b048",
+    "section": "Developers",
+    "text": "● Instilling quality by adhering to a Definition of Done;",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b049",
+    "section": "Developers",
+    "text": "● Adapting their plan each day toward the Sprint Goal; and,",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b050",
+    "section": "Developers",
+    "text": "● Holding each other accountable as professionals.",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b051",
+    "section": "Product Owner",
+    "text": "Product Owner",
+    "pages": [
+      5
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b052",
+    "section": "Product Owner",
+    "text": "The Product Owner is accountable for maximizing the value of the product resulting from the work of the Scrum Team. How this is done may vary widely across organizations, Scrum Teams, and individuals.",
+    "pages": [
+      5
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b053",
+    "section": "Product Owner",
+    "text": "The Product Owner is also accountable for effective Product Backlog management, which includes:",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b054",
+    "section": "Product Owner",
+    "text": "● Developing and explicitly communicating the Product Goal;",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b055",
+    "section": "Product Owner",
+    "text": "● Creating and clearly communicating Product Backlog items;",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b056",
+    "section": "Product Owner",
+    "text": "● Ordering Product Backlog items; and,",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b057",
+    "section": "Product Owner",
+    "text": "● Ensuring that the Product Backlog is transparent, visible and understood.",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b058",
+    "section": "Product Owner",
+    "text": "The Product Owner may do the above work or may delegate the responsibility to others. Regardless, the Product Owner remains accountable.",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b059",
+    "section": "Product Owner",
+    "text": "For Product Owners to succeed, the entire organization must respect their decisions. These decisions are visible in the content and ordering of the Product Backlog, and through the inspectable Increment at the Sprint Review.",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b060",
+    "section": "Product Owner",
+    "text": "The Product Owner is one person, not a committee. The Product Owner may represent the needs of many stakeholders in the Product Backlog. Those wanting to change the Product Backlog can do so by trying to convince the Product Owner.",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b061",
+    "section": "Scrum Master",
+    "text": "Scrum Master",
+    "pages": [
+      6
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b062",
+    "section": "Scrum Master",
+    "text": "The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide. They do this by helping everyone understand Scrum theory and practice, both within the Scrum Team and the organization.",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b063",
+    "section": "Scrum Master",
+    "text": "The Scrum Master is accountable for the Scrum Team’s effectiveness. They do this by enabling the Scrum Team to improve its practices, within the Scrum framework.",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b064",
+    "section": "Scrum Master",
+    "text": "Scrum Masters are true leaders who serve the Scrum Team and the larger organization.",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b065",
+    "section": "Scrum Master",
+    "text": "The Scrum Master serves the Scrum Team in several ways, including:",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b066",
+    "section": "Scrum Master",
+    "text": "● Coaching the team members in self-management and cross-functionality;",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b067",
+    "section": "Scrum Master",
+    "text": "● Helping the Scrum Team focus on creating high-value Increments that meet the Definition of Done;",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b068",
+    "section": "Scrum Master",
+    "text": "● Causing the removal of impediments to the Scrum Team’s progress; and,",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b069",
+    "section": "Scrum Master",
+    "text": "● Ensuring that all Scrum events take place and are positive, productive, and kept within the timebox.",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b070",
+    "section": "Scrum Master",
+    "text": "The Scrum Master serves the Product Owner in several ways, including:",
+    "pages": [
+      6
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b071",
+    "section": "Scrum Master",
+    "text": "● Helping find techniques for effective Product Goal definition and Product Backlog management;",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b072",
+    "section": "Scrum Master",
+    "text": "● Helping the Scrum Team understand the need for clear and concise Product Backlog items;",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b073",
+    "section": "Scrum Master",
+    "text": "● Helping establish empirical product planning for a complex environment; and,",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b074",
+    "section": "Scrum Master",
+    "text": "● Facilitating stakeholder collaboration as requested or needed.",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b075",
+    "section": "Scrum Master",
+    "text": "The Scrum Master serves the organization in several ways, including:",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b076",
+    "section": "Scrum Master",
+    "text": "● Leading, training, and coaching the organization in its Scrum adoption;",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b077",
+    "section": "Scrum Master",
+    "text": "● Planning and advising Scrum implementations within the organization;",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b078",
+    "section": "Scrum Master",
+    "text": "● Helping employees and stakeholders understand and enact an empirical approach for complex work; and,",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b079",
+    "section": "Scrum Master",
+    "text": "● Removing barriers between stakeholders and Scrum Teams.",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b080",
+    "section": "Scrum Events",
+    "text": "Scrum Events",
+    "pages": [
+      7
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b081",
+    "section": "Scrum Events",
+    "text": "The Sprint is a container for all other events. Each event in Scrum is a formal opportunity to inspect and adapt Scrum artifacts. These events are specifically designed to enable the transparency required. Failure to operate any events as prescribed results in lost opportunities to inspect and adapt. Events are used in Scrum to create regularity and to minimize the need for meetings not defined in Scrum. Optimally, all events are held at the same time and place to reduce complexity.",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b082",
+    "section": "The Sprint",
+    "text": "The Sprint",
+    "pages": [
+      7
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b083",
+    "section": "The Sprint",
+    "text": "Sprints are the heartbeat of Scrum, where ideas are turned into value.",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b084",
+    "section": "The Sprint",
+    "text": "They are fixed length events of one month or less to create consistency. A new Sprint starts immediately after the conclusion of the previous Sprint.",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b085",
+    "section": "The Sprint",
+    "text": "All the work necessary to achieve the Product Goal, including Sprint Planning, Daily Scrums, Sprint Review, and Sprint Retrospective, happen within Sprints.",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b086",
+    "section": "The Sprint",
+    "text": "During the Sprint:",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b087",
+    "section": "The Sprint",
+    "text": "● No changes are made that would endanger the Sprint Goal;",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b088",
+    "section": "The Sprint",
+    "text": "● Quality does not decrease;",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b089",
+    "section": "The Sprint",
+    "text": "● The Product Backlog is refined as needed; and,",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b090",
+    "section": "The Sprint",
+    "text": "● Scope may be clarified and renegotiated with the Product Owner as more is learned.",
+    "pages": [
+      7
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b091",
+    "section": "The Sprint",
+    "text": "Sprints enable predictability by ensuring inspection and adaptation of progress toward a Product Goal at least every calendar month. When a Sprint’s horizon is too long the Sprint Goal may become invalid, complexity may rise, and risk may increase. Shorter Sprints can be employed to generate more learning cycles and limit risk of cost and effort to a smaller time frame. Each Sprint may be considered a short project.",
+    "pages": [
+      7,
+      8
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b092",
+    "section": "The Sprint",
+    "text": "Various practices exist to forecast progress, like burn-downs, burn-ups, or cumulative flows. While proven useful, these do not replace the importance of empiricism. In complex environments, what will happen is unknown. Only what has already happened may be used for forward-looking decision making.",
+    "pages": [
+      8
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b093",
+    "section": "The Sprint",
+    "text": "A Sprint could be cancelled if the Sprint Goal becomes obsolete. Only the Product Owner has the authority to cancel the Sprint.",
+    "pages": [
+      8
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b094",
+    "section": "Sprint Planning",
+    "text": "Sprint Planning",
+    "pages": [
+      8
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b095",
+    "section": "Sprint Planning",
+    "text": "Sprint Planning initiates the Sprint by laying out the work to be performed for the Sprint. This resulting plan is created by the collaborative work of the entire Scrum Team.",
+    "pages": [
+      8
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b096",
+    "section": "Sprint Planning",
+    "text": "The Product Owner ensures that attendees are prepared to discuss the most important Product Backlog items and how they map to the Product Goal. The Scrum Team may also invite other people to attend Sprint Planning to provide advice.",
+    "pages": [
+      8
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b097",
+    "section": "Sprint Planning",
+    "text": "Sprint Planning addresses the following topics:",
+    "pages": [
+      8
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b098",
+    "section": "Topic One: Why is this Sprint valuable?",
+    "text": "Topic One: Why is this Sprint valuable?",
+    "pages": [
+      8
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b099",
+    "section": "Topic One: Why is this Sprint valuable?",
+    "text": "The Product Owner proposes how the product could increase its value and utility in the current Sprint. The whole Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to stakeholders. The Sprint Goal must be finalized prior to the end of Sprint Planning.",
+    "pages": [
+      8
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b100",
+    "section": "Topic Two: What can be Done this Sprint?",
+    "text": "Topic Two: What can be Done this Sprint?",
+    "pages": [
+      8
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b101",
+    "section": "Topic Two: What can be Done this Sprint?",
+    "text": "Through discussion with the Product Owner, the Developers select items from the Product Backlog to include in the current Sprint. The Scrum Team may refine these items during this process, which increases understanding and confidence.",
+    "pages": [
+      8
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b102",
+    "section": "Topic Two: What can be Done this Sprint?",
+    "text": "Selecting how much can be completed within a Sprint may be challenging. However, the more the Developers know about their past performance, their upcoming capacity, and their Definition of Done, the more confident they will be in their Sprint forecasts.",
+    "pages": [
+      8
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b103",
+    "section": "Topic Three: How will the chosen work get done?",
+    "text": "Topic Three: How will the chosen work get done?",
+    "pages": [
+      8
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b104",
+    "section": "Topic Three: How will the chosen work get done?",
+    "text": "For each selected Product Backlog item, the Developers plan the work necessary to create an Increment that meets the Definition of Done. This is often done by decomposing Product Backlog items into smaller work items of one day or less. How this is done is at the sole discretion of the Developers. No one else tells them how to turn Product Backlog items into Increments of value.",
+    "pages": [
+      8
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b105",
+    "section": "Topic Three: How will the chosen work get done?",
+    "text": "The Sprint Goal, the Product Backlog items selected for the Sprint, plus the plan for delivering them are together referred to as the Sprint Backlog.",
+    "pages": [
+      9
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b106",
+    "section": "Topic Three: How will the chosen work get done?",
+    "text": "Sprint Planning is timeboxed to a maximum of eight hours for a one-month Sprint. For shorter Sprints, the event is usually shorter.",
+    "pages": [
+      9
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b107",
+    "section": "Daily Scrum",
+    "text": "Daily Scrum",
+    "pages": [
+      9
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b108",
+    "section": "Daily Scrum",
+    "text": "The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary, adjusting the upcoming planned work.",
+    "pages": [
+      9
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b109",
+    "section": "Daily Scrum",
+    "text": "The Daily Scrum is a 15-minute event for the Developers of the Scrum Team. To reduce complexity, it is held at the same time and place every working day of the Sprint. If the Product Owner or Scrum Master are actively working on items in the Sprint Backlog, they participate as Developers.",
+    "pages": [
+      9
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b110",
+    "section": "Daily Scrum",
+    "text": "The Developers can select whatever structure and techniques they want, as long as their Daily Scrum focuses on progress toward the Sprint Goal and produces an actionable plan for the next day of work. This creates focus and improves self-management.",
+    "pages": [
+      9
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b111",
+    "section": "Daily Scrum",
+    "text": "Daily Scrums improve communications, identify impediments, promote quick decision-making, and consequently eliminate the need for other meetings.",
+    "pages": [
+      9
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b112",
+    "section": "Daily Scrum",
+    "text": "The Daily Scrum is not the only time Developers are allowed to adjust their plan. They often meet throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s work.",
+    "pages": [
+      9
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b113",
+    "section": "Sprint Review",
+    "text": "Sprint Review",
+    "pages": [
+      9
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b114",
+    "section": "Sprint Review",
+    "text": "The purpose of the Sprint Review is to inspect the outcome of the Sprint and determine future adaptations. The Scrum Team presents the results of their work to key stakeholders and progress toward the Product Goal is discussed.",
+    "pages": [
+      9
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b115",
+    "section": "Sprint Review",
+    "text": "During the event, the Scrum Team and stakeholders review what was accomplished in the Sprint and what has changed in their environment. Based on this information, attendees collaborate on what to do next. The Product Backlog may also be adjusted to meet new opportunities. The Sprint Review is a working session and the Scrum Team should avoid limiting it to a presentation.",
+    "pages": [
+      9
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b116",
+    "section": "Sprint Review",
+    "text": "The Sprint Review is the second to last event of the Sprint and is timeboxed to a maximum of four hours for a one-month Sprint. For shorter Sprints, the event is usually shorter.",
+    "pages": [
+      9
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b117",
+    "section": "Sprint Retrospective",
+    "text": "Sprint Retrospective",
+    "pages": [
+      10
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b118",
+    "section": "Sprint Retrospective",
+    "text": "The purpose of the Sprint Retrospective is to plan ways to increase quality and effectiveness.",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b119",
+    "section": "Sprint Retrospective",
+    "text": "The Scrum Team inspects how the last Sprint went with regards to individuals, interactions, processes, tools, and their Definition of Done. Inspected elements often vary with the domain of work. Assumptions that led them astray are identified and their origins explored. The Scrum Team discusses what went well during the Sprint, what problems it encountered, and how those problems were (or were not) solved.",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b120",
+    "section": "Sprint Retrospective",
+    "text": "The Scrum Team identifies the most helpful changes to improve its effectiveness. The most impactful improvements are addressed as soon as possible. They may even be added to the Sprint Backlog for the next Sprint.",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b121",
+    "section": "Sprint Retrospective",
+    "text": "The Sprint Retrospective concludes the Sprint. It is timeboxed to a maximum of three hours for a one-month Sprint. For shorter Sprints, the event is usually shorter.",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b122",
+    "section": "Scrum Artifacts",
+    "text": "Scrum Artifacts",
+    "pages": [
+      10
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b123",
+    "section": "Scrum Artifacts",
+    "text": "Scrum’s artifacts represent work or value. They are designed to maximize transparency of key information. Thus, everyone inspecting them has the same basis for adaptation.",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b124",
+    "section": "Scrum Artifacts",
+    "text": "Each artifact contains a commitment to ensure it provides information that enhances transparency and focus against which progress can be measured:",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b125",
+    "section": "Scrum Artifacts",
+    "text": "● For the Product Backlog it is the Product Goal.",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b126",
+    "section": "Scrum Artifacts",
+    "text": "● For the Sprint Backlog it is the Sprint Goal.",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b127",
+    "section": "Scrum Artifacts",
+    "text": "● For the Increment it is the Definition of Done.",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b128",
+    "section": "Scrum Artifacts",
+    "text": "These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their stakeholders.",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b129",
+    "section": "Product Backlog",
+    "text": "Product Backlog",
+    "pages": [
+      10
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b130",
+    "section": "Product Backlog",
+    "text": "The Product Backlog is an emergent, ordered list of what is needed to improve the product. It is the single source of work undertaken by the Scrum Team.",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b131",
+    "section": "Product Backlog",
+    "text": "Product Backlog items that can be Done by the Scrum Team within one Sprint are deemed ready for selection in a Sprint Planning event. They usually acquire this degree of transparency after refining activities. Product Backlog refinement is the act of breaking down and further defining Product Backlog items into smaller more precise items. This is an ongoing activity to add details, such as a description, order, and size. Attributes often vary with the domain of work.",
+    "pages": [
+      10
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b132",
+    "section": "Product Backlog",
+    "text": "The Developers who will be doing the work are responsible for the sizing. The Product Owner may influence the Developers by helping them understand and select trade-offs.",
+    "pages": [
+      11
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b133",
+    "section": "Commitment: Product Goal",
+    "text": "Commitment: Product Goal",
+    "pages": [
+      11
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b134",
+    "section": "Commitment: Product Goal",
+    "text": "The Product Goal describes a future state of the product which can serve as a target for the Scrum Team to plan against. The Product Goal is in the Product Backlog. The rest of the Product Backlog emerges to define “what” will fulfill the Product Goal.",
+    "pages": [
+      11
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b135",
+    "section": "Commitment: Product Goal",
+    "text": "A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, well-defined users or customers. A product could be a service, a physical product, or something more abstract.",
+    "pages": [
+      11
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b136",
+    "section": "Commitment: Product Goal",
+    "text": "The Product Goal is the long-term objective for the Scrum Team. They must fulfill (or abandon) one objective before taking on the next.",
+    "pages": [
+      11
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b137",
+    "section": "Sprint Backlog",
+    "text": "Sprint Backlog",
+    "pages": [
+      11
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b138",
+    "section": "Sprint Backlog",
+    "text": "The Sprint Backlog is composed of the Sprint Goal (why), the set of Product Backlog items selected for the Sprint (what), as well as an actionable plan for delivering the Increment (how).",
+    "pages": [
+      11
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b139",
+    "section": "Sprint Backlog",
+    "text": "The Sprint Backlog is a plan by and for the Developers. It is a highly visible, real-time picture of the work that the Developers plan to accomplish during the Sprint in order to achieve the Sprint Goal. Consequently, the Sprint Backlog is updated throughout the Sprint as more is learned. It should have enough detail that they can inspect their progress in the Daily Scrum.",
+    "pages": [
+      11
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b140",
+    "section": "Commitment: Sprint Goal",
+    "text": "Commitment: Sprint Goal",
+    "pages": [
+      11
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b141",
+    "section": "Commitment: Sprint Goal",
+    "text": "The Sprint Goal is the single objective for the Sprint. Although the Sprint Goal is a commitment by the Developers, it provides flexibility in terms of the exact work needed to achieve it. The Sprint Goal also creates coherence and focus, encouraging the Scrum Team to work together rather than on separate initiatives.",
+    "pages": [
+      11
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b142",
+    "section": "Commitment: Sprint Goal",
+    "text": "The Sprint Goal is created during the Sprint Planning event and then added to the Sprint Backlog. As the Developers work during the Sprint, they keep the Sprint Goal in mind. If the work turns out to be different than they expected, they collaborate with the Product Owner to negotiate the scope of the Sprint Backlog within the Sprint without affecting the Sprint Goal.",
+    "pages": [
+      11
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b143",
+    "section": "Increment",
+    "text": "Increment",
+    "pages": [
+      11
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b144",
+    "section": "Increment",
+    "text": "An Increment is a concrete stepping stone toward the Product Goal. Each Increment is additive to all prior Increments and thoroughly verified, ensuring that all Increments work together. In order to provide value, the Increment must be usable.",
+    "pages": [
+      11
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b145",
+    "section": "Increment",
+    "text": "Multiple Increments may be created within a Sprint. The sum of the Increments is presented at the Sprint Review thus supporting empiricism. However, an Increment may be delivered to stakeholders prior to the end of the Sprint. The Sprint Review should never be considered a gate to releasing value.",
+    "pages": [
+      12
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b146",
+    "section": "Increment",
+    "text": "Work cannot be considered part of an Increment unless it meets the Definition of Done.",
+    "pages": [
+      12
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b147",
+    "section": "Commitment: Definition of Done",
+    "text": "Commitment: Definition of Done",
+    "pages": [
+      12
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b148",
+    "section": "Commitment: Definition of Done",
+    "text": "The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for the product.",
+    "pages": [
+      12
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b149",
+    "section": "Commitment: Definition of Done",
+    "text": "The moment a Product Backlog item meets the Definition of Done, an Increment is born.",
+    "pages": [
+      12
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b150",
+    "section": "Commitment: Definition of Done",
+    "text": "The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If a Product Backlog item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review. Instead, it returns to the Product Backlog for future consideration.",
+    "pages": [
+      12
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b151",
+    "section": "Commitment: Definition of Done",
+    "text": "If the Definition of Done for an increment is part of the standards of the organization, all Scrum Teams must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product.",
+    "pages": [
+      12
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b152",
+    "section": "Commitment: Definition of Done",
+    "text": "The Developers are required to conform to the Definition of Done. If there are multiple Scrum Teams working together on a product, they must mutually define and comply with the same Definition of Done.",
+    "pages": [
+      12
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b153",
+    "section": "End Note",
+    "text": "End Note",
+    "pages": [
+      13
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b154",
+    "section": "End Note",
+    "text": "Scrum is free and offered in this Guide. The Scrum framework, as outlined herein, is immutable. While implementing only parts of Scrum is possible, the result is not Scrum. Scrum exists only in its entirety and functions well as a container for other techniques, methodologies, and practices.",
+    "pages": [
+      13
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b155",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements",
+    "pages": [
+      13
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b156",
+    "section": "People",
+    "text": "People",
+    "pages": [
+      13
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b157",
+    "section": "People",
+    "text": "Of the thousands of people who have contributed to Scrum, we should single out those who were instrumental at the start: Jeff Sutherland worked with Jeff McKenna and John Scumniotales, and Ken Schwaber worked with Mike Smith and Chris Martin, and all of them worked together. Many others contributed in the ensuing years and without their help Scrum would not be refined as it is today.",
+    "pages": [
+      13
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b158",
+    "section": "Scrum Guide History",
+    "text": "Scrum Guide History",
+    "pages": [
+      13
+    ],
+    "kind": "heading"
+  },
+  {
+    "id": "b159",
+    "section": "Scrum Guide History",
+    "text": "Ken Schwaber and Jeff Sutherland first co-presented Scrum at the OOPSLA Conference in 1995. It essentially documented the learning that Ken and Jeff gained over the previous few years and made public the first formal definition of Scrum.",
+    "pages": [
+      13
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b160",
+    "section": "Scrum Guide History",
+    "text": "The Scrum Guide documents Scrum as developed, evolved, and sustained for 30-plus years by Jeff Sutherland and Ken Schwaber. Other sources provide patterns, processes, and insights that complement the Scrum framework. These may increase productivity, value, creativity, and satisfaction with the results.",
+    "pages": [
+      13
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b161",
+    "section": "Scrum Guide History",
+    "text": "The complete history of Scrum is described elsewhere. To honor the first places where it was tried and proven, we recognize Individual Inc., Newspage, Fidelity Investments, and IDX (now GE Medical).",
+    "pages": [
+      13
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b162",
+    "section": "Copyright and license",
+    "text": "© 2020 Ken Schwaber and Jeff Sutherland",
+    "pages": [
+      13
+    ],
+    "kind": "text"
+  },
+  {
+    "id": "b163",
+    "section": "Copyright and license",
+    "text": "This publication is offered for license under the Attribution Share-Alike license of Creative Commons, accessible at https://creativecommons.org/licenses/by-sa/4.0/legalcode and also described in summary form at https://creativecommons.org/licenses/by-sa/4.0/. By utilizing this Scrum Guide, you acknowledge and agree that you have read and agree to be bound by the terms of the Attribution Share-Alike license of Creative Commons.",
+    "pages": [
+      13
+    ],
+    "kind": "text"
+  }
+]

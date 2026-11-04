@@ -1,0 +1,89 @@
+{
+  "source": "Scrum Guide 2020.pdf",
+  "edition": "November 2020",
+  "authors": [
+    "Ken Schwaber",
+    "Jeff Sutherland"
+  ],
+  "sourceSha256": "ed83eb2378459c9e5da5e695844a24c3770fba33687cafaf0a0683ad5070b3ec",
+  "pdfPages": 14,
+  "printedPages": "1–13 plus cover",
+  "sourceBlocks": 163,
+  "headings": 31,
+  "terminalPassages": 136,
+  "unmappedBlocks": 0,
+  "normalizedTextMatchesSource": true,
+  "normalization": "Layout whitespace collapsed; one- followed by line break and month joined to one-month. No words removed. Five value sentences split without changing text. Printed page-number footers are metadata.",
+  "perPage": [
+    {
+      "pdfPage": 1,
+      "printedPage": 0,
+      "blocks": 1
+    },
+    {
+      "pdfPage": 2,
+      "printedPage": 1,
+      "blocks": 8
+    },
+    {
+      "pdfPage": 3,
+      "printedPage": 2,
+      "blocks": 1
+    },
+    {
+      "pdfPage": 4,
+      "printedPage": 3,
+      "blocks": 15
+    },
+    {
+      "pdfPage": 5,
+      "printedPage": 4,
+      "blocks": 12
+    },
+    {
+      "pdfPage": 6,
+      "printedPage": 5,
+      "blocks": 15
+    },
+    {
+      "pdfPage": 7,
+      "printedPage": 6,
+      "blocks": 18
+    },
+    {
+      "pdfPage": 8,
+      "printedPage": 7,
+      "blocks": 21
+    },
+    {
+      "pdfPage": 9,
+      "printedPage": 8,
+      "blocks": 14
+    },
+    {
+      "pdfPage": 10,
+      "printedPage": 9,
+      "blocks": 12
+    },
+    {
+      "pdfPage": 11,
+      "printedPage": 10,
+      "blocks": 15
+    },
+    {
+      "pdfPage": 12,
+      "printedPage": 11,
+      "blocks": 13
+    },
+    {
+      "pdfPage": 13,
+      "printedPage": 12,
+      "blocks": 8
+    },
+    {
+      "pdfPage": 14,
+      "printedPage": 13,
+      "blocks": 11
+    }
+  ]
+}
