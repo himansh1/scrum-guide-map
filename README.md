@@ -4,8 +4,9 @@ A phone-friendly visual reader for every page of the November 2020 Scrum Guide, 
 
 Live site: https://himansh1.github.io/scrum-guide-map/
 
-## Version 2
+## Version 3
 
+- Terminal excerpts now keep introductory sentences with their complete following lists or topics. The Three planning topics endpoint includes the original Why, What and How headings and all four paragraphs. This repair covers 10 introduction groups and 42 endpoints, including Saved and exported cheat sheets.
 - Complete Guide hierarchy: 14 PDF pages, 163 source blocks, 31 headings and 136 exact final passages.
 - All 80 supplied questions, 112 selected answers and 320 original choices. The answer key is preserved; each question has a separate Guide check and source links. Ambiguous, qualified and non-Guide claims are labeled.
 - All nine sections of the supplied one-page summary, organized into 25 reviewed cues. The original extracted summary remains accessible under Sources & checks.
@@ -15,7 +16,7 @@ Live site: https://himansh1.github.io/scrum-guide-map/
 
 ## Notes and offline use
 
-Notes and saved passages stay in the current browser. Version 2 preserves the original node IDs and `scrum-guide-map-notes-v1` storage key. Export a JSON backup or an HTML cheat sheet from Saved. These personal notes are never sent to GitHub. The service worker caches the self-contained app after a successful online visit. External resource pages require a connection.
+Notes and saved passages stay in the current browser. Version 3 preserves the original node IDs and `scrum-guide-map-notes-v1` storage key. Export a JSON backup or an HTML cheat sheet from Saved. These personal notes are never sent to GitHub. The service worker caches the self-contained app after a successful online visit. External resource pages require a connection.
 
 ## Build and verification
 

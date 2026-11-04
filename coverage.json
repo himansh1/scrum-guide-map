@@ -167,5 +167,13 @@
       "https://www.scrum.org/pathway/product-owner-learning-path"
     ],
     "method": "Exact Guide block coverage; DOCX bold answer key re-extracted and matched to cleaned Q&A; all questions reviewed against linked Guide passages. Interpretation and unsupported claims are labeled separately. All nine summary sections reviewed; original extracted summary retained."
+  },
+  "readingContext": {
+    "introductoryPassages": 10,
+    "completeExcerptGroups": 10,
+    "enhancedEndpoints": 42,
+    "allIntroductionsHaveContinuations": true,
+    "originalTextUnchanged": true,
+    "method": "Each colon-ended introduction includes its complete following list or all three Planning topics. Individual list items also show the governing introduction and full list. Original node IDs, paragraphs and source references are unchanged."
   }
 }

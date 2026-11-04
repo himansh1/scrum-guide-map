@@ -22,3 +22,21 @@ def walk(id):
 walk('home');assert seen==set(data['nodes'])
 assert len(pages)==14
 print('PASS: all 14 pages, 163 blocks and 31 headings preserved; 136 exact terminal passages; all nodes reachable; no unassigned text.')
+
+# Reading contexts must use exact original nodes and cover every introduction.
+assert data.get('excerptGroups'), 'Complete reading contexts missing'
+intro_ids={id for id,n in data['nodes'].items() if n.get('text','').endswith(':')}
+groups=data['excerptGroups']
+assert {g['nodes'][0] for g in groups}==intro_ids
+covered=[]
+for g in groups:
+    assert len(g['nodes'])>1
+    assert len(g['nodes'])==len(set(g['nodes']))
+    assert all(id in data['nodes'] for id in g['nodes'])
+    assert all(id in g['nodes'] and data['nodes'][id].get('text') for id in g['targets'])
+    assert all(data['nodes'][id].get('text') or all(by[r]['kind']=='heading' for r in data['nodes'][id]['refs']) for id in g['nodes'])
+    positions=[int(r[1:]) for id in g['nodes'] for r in data['nodes'][id]['refs']]
+    assert positions==list(range(positions[0],positions[-1]+1)), 'A continuation was skipped or reordered'
+    covered+=g['targets']
+assert len(covered)==len(set(covered))==42
+print('PASS: all 10 introductions have complete, consecutive original excerpts; 42 endpoints retain the full list/topic context.')
