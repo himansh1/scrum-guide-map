@@ -1,33 +1,30 @@
-# Scrum Guide Mind Map
+# Scrum Guide Map
 
-[Open the mind map](https://himansh1.github.io/scrum-guide-map/)
+A phone-friendly visual reader for every page of the November 2020 Scrum Guide, with the supplied PSPO mock questions, a checked summary and tap-to-find shortcuts.
 
-A phone-friendly, tap-through reading companion for the complete **November 2020 Scrum Guide**, by Ken Schwaber and Jeff Sutherland.
+Live site: https://himansh1.github.io/scrum-guide-map/
 
-The five main branches follow the Guide: fundamentals and theory, Scrum values, Scrum Team, Scrum events, and Scrum artifacts. Purpose, cover, contents, acknowledgements and licensing are included under **About the Guide**. Each final branch contains the original paragraph, list item or sentence, with its printed page reference.
+## Version 2
 
-## Features
+- Complete Guide hierarchy: 14 PDF pages, 163 source blocks, 31 headings and 136 exact final passages.
+- All 80 supplied questions, 112 selected answers and 320 original choices. The answer key is preserved; each question has a separate Guide check and source links. Ambiguous, qualified and non-Guide claims are labeled.
+- All nine sections of the supplied one-page summary, organized into 25 reviewed cues. The original extracted summary remains accessible under Sources & checks.
+- Keywords under map headings and 31 curated Find suggestions, including timeboxes, accountabilities, cancellation, release, Done and scaling.
+- Supplementary links and short explanations from official Scrum.org resources.
+- The Help page has been removed. Source attribution and validation remain under Sources & checks.
 
-- Hierarchical mind map with browser Back support and direct links to every branch.
-- All 14 PDF pages, including the cover and printed pages 1–13.
-- 136 terminal passages; all 163 source blocks accounted for, including 31 headings.
-- Original page reader, full-branch reading view and optional search.
-- Saved passages and notes stored only in the current browser.
-- HTML cheat-sheet export and JSON backup/import. Notes are never uploaded to GitHub.
-- Offline access after the first successful online load; look for **Offline ready**.
+## Notes and offline use
 
-On Android, open the site in Chrome and choose **⋮ → Add to Home screen**. Clearing browser data can remove notes and offline files; export a backup to keep notes or move them between devices.
+Notes and saved passages stay in the current browser. Version 2 preserves the original node IDs and `scrum-guide-map-notes-v1` storage key. Export a JSON backup or an HTML cheat sheet from Saved. These personal notes are never sent to GitHub. The service worker caches the self-contained app after a successful online visit. External resource pages require a connection.
 
-## Source fidelity
+## Build and verification
 
-The supplied PDF was extracted page by page. The extraction is included as `guide-pages.json`; the ordered source blocks are in `blocks.json`. `coverage.json` records the source PDF SHA-256 and coverage counts.
+Run `python3 build.py` to rebuild `index.html`, and `python3 verify_coverage.py` to verify complete original Guide coverage. Route, answer, keyword, summary and note-storage checks were run before publication. `coverage.json` records source hashes, normalization, coverage and the review method. The enrichment script uses local supplied inputs; the published data already contains the reviewed content.
 
-Only layout whitespace is normalized, and the PDF's line-wrapped `one-month` is joined. Printed page-number footers become metadata. The paragraph describing the five values in practice is split into its five unchanged sentences. Navigation labels are editorial; leaf quotations preserve the Guide's wording. The source blocks reconstruct the complete extracted text after these normalizations.
+Original Guide text is distinct from navigation labels, summary cues and question commentary. Layout whitespace is normalized, a line-wrapped “one-month” is joined, and printed page-number footers become metadata. Five values-practice sentences are split without changing their wording. The cleaned Q&A text removes an extra period after a question mark in Q59 and Q62; the DOCX wording is retained.
 
-Run `python3 verify_coverage.py` to verify coverage. The application is dependency-free. Rebuild the standalone HTML with `python3 build.py` after editing its source files. Serve this directory with a local HTTP server to test service-worker support.
+## Sources and rights
 
-## Attribution and license
+The Scrum Guide © 2020 Ken Schwaber and Jeff Sutherland, [official source](https://scrumguides.org/). The Guide and its visual adaptation are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The organization, navigation and commentary have been added; no endorsement by the authors or Scrum.org is implied.
 
-**The Scrum Guide**, November 2020. © 2020 Ken Schwaber and Jeff Sutherland. Original source: [scrumguides.org](https://scrumguides.org/) and the [official 2020 English PDF](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf).
-
-The Guide and this visual adaptation are licensed under [Creative Commons Attribution–ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). This adaptation changes organization and presentation and adds navigation, offline access and local notes. It does not imply endorsement by the Guide's authors or Scrum.org. User-authored notes remain separate from the Guide.
+The supplied mock, supplied summary and linked website resources retain their respective rights. The Guide's license does not automatically cover them. The supplied answer key is not an official Scrum.org answer key. Checks distinguish Guide rules, practical interpretation and statements not established by the Guide.

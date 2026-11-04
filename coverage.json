@@ -85,5 +85,87 @@
       "printedPage": 13,
       "blocks": 11
     }
-  ]
+  ],
+  "studyMaterial": {
+    "checkedOn": "2026-11-04",
+    "questions": 80,
+    "selectedAnswers": 112,
+    "questionPromptsAndAnswerKeyMatch": true,
+    "questionNormalization": "Whitespace normalized; cleaned TXT removes an extra period after ? in Q59 and Q62. DOCX question wording and all selected answers retained.",
+    "summarySections": 9,
+    "summaryPoints": 25,
+    "summarySectionsCovered": 9,
+    "summaryOriginalTextIncluded": true,
+    "flaggedQuestionIds": [
+      6,
+      10,
+      17,
+      20,
+      26,
+      34,
+      39,
+      42,
+      45,
+      50,
+      51,
+      55,
+      60,
+      61,
+      66,
+      67,
+      69,
+      74,
+      78,
+      80
+    ],
+    "practicalApplicationIds": [
+      4,
+      5,
+      9,
+      15,
+      18,
+      24,
+      27,
+      28,
+      30,
+      33,
+      38,
+      41,
+      47,
+      48,
+      49,
+      52,
+      56,
+      65,
+      70,
+      72,
+      76,
+      77
+    ],
+    "sources": [
+      {
+        "file": "Scrum Guide 2020.pdf",
+        "sha256": "ed83eb2378459c9e5da5e695844a24c3770fba33687cafaf0a0683ad5070b3ec"
+      },
+      {
+        "file": "PSPO Mock Up Quiz - Answers.docx",
+        "sha256": "c9c42aaaffdc478f029733e8c55e9d0947db51e5f3efd89215f3edd4796550cc"
+      },
+      {
+        "file": "PSPO Mock Up Quiz - Questions and Correct Answers.txt",
+        "sha256": "b565731adc3529f4f2164f8524d5802d7d09b23aeb888f460db8a3ccee713370"
+      },
+      {
+        "file": "Scrum Guide Summary.pdf",
+        "sha256": "9aeab2068fdfcd3062a969c5b24efc08f8a7de951ff5a7d153a80f5def223614"
+      }
+    ],
+    "officialWebResources": [
+      "https://www.scrum.org/resources/online-evidence-based-management-guide",
+      "https://www.scrum.org/resources/what-is-a-product-owner",
+      "https://www.scrum.org/resources/introduction-product-backlog",
+      "https://www.scrum.org/pathway/product-owner-learning-path"
+    ],
+    "method": "Exact Guide block coverage; DOCX bold answer key re-extracted and matched to cleaned Q&A; all questions reviewed against linked Guide passages. Interpretation and unsupported claims are labeled separately. All nine summary sections reviewed; original extracted summary retained."
+  }
 }
