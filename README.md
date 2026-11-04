@@ -4,7 +4,9 @@ A phone-friendly visual reader for every page of the November 2020 Scrum Guide, 
 
 Live site: https://himansh1.github.io/scrum-guide-map/
 
-## Version 3
+## Version 4
+
+- Official Product Owner Open entry point in Q&A and Find: 15 questions per attempt on Scrum.org, plus five Guide review themes. No official assessment questions or answers are copied. [Scrum.org terms](https://www.scrum.org/website-terms-service) restrict republication without authorization.
 
 - Terminal excerpts now keep introductory sentences with their complete following lists or topics. The Three planning topics endpoint includes the original Why, What and How headings and all four paragraphs. This repair covers 10 introduction groups and 42 endpoints, including Saved and exported cheat sheets.
 - Complete Guide hierarchy: 14 PDF pages, 163 source blocks, 31 headings and 136 exact final passages.
@@ -16,11 +18,11 @@ Live site: https://himansh1.github.io/scrum-guide-map/
 
 ## Notes and offline use
 
-Notes and saved passages stay in the current browser. Version 3 preserves the original node IDs and `scrum-guide-map-notes-v1` storage key. Export a JSON backup or an HTML cheat sheet from Saved. These personal notes are never sent to GitHub. The service worker caches the self-contained app after a successful online visit. External resource pages require a connection.
+Notes and saved passages stay in the current browser. Version 4 preserves the original node IDs and `scrum-guide-map-notes-v1` storage key. Export a JSON backup or an HTML cheat sheet from Saved. These personal notes are never sent to GitHub. The service worker caches the self-contained app after a successful online visit. External resource pages require a connection.
 
 ## Build and verification
 
-Run `python3 build.py` to rebuild `index.html`, and `python3 verify_coverage.py` to verify complete original Guide coverage. Route, answer, keyword, summary and note-storage checks were run before publication. `coverage.json` records source hashes, normalization, coverage and the review method. The enrichment script uses local supplied inputs; the published data already contains the reviewed content.
+Run `python3 build.py` to rebuild `index.html`, and `python3 verify_coverage.py` to verify complete original Guide coverage. Before publication, the local `qa/check-routes.cjs` suite verified routes, answers, keywords, summaries and note storage. `coverage.json` records source hashes, normalization, coverage and the review method. The enrichment script uses local supplied inputs; the published data already contains the reviewed content.
 
 Original Guide text is distinct from navigation labels, summary cues and question commentary. Layout whitespace is normalized, a line-wrapped “one-month” is joined, and printed page-number footers become metadata. Five values-practice sentences are split without changing their wording. The cleaned Q&A text removes an extra period after a question mark in Q59 and Q62; the DOCX wording is retained.
 

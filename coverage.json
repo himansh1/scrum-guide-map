@@ -175,5 +175,13 @@
     "allIntroductionsHaveContinuations": true,
     "originalTextUnchanged": true,
     "method": "Each colon-ended introduction includes its complete following list or all three Planning topics. Individual list items also show the governing introduction and full list. Original node IDs, paragraphs and source references are unchanged."
+  },
+  "openAssessment": {
+    "checkedOn": "2026-11-04",
+    "source": "https://www.scrum.org/open-assessments/product-owner-open",
+    "questionsPerAttempt": 15,
+    "copiedQuestions": 0,
+    "delivery": "Official external link plus editorial Guide review shortcuts; no copied assessment question or answer bank.",
+    "terms": "https://www.scrum.org/website-terms-service"
   }
 }
